@@ -1,52 +1,57 @@
 {
-    "name": "factor",
-    "displayName": "Factor",
-    "description": "Factor programming language",
-    "version": "0.3.0",
-    "publisher": "dexterhaslem",
-    "icon": "Factor_256x256.png",
-    "homepage": "https://github.com/DexterHaslem/vscode-factor",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/DexterHaslem/vscode-factor.git"
-    },
-    "bugs": {
-        "url": "https://github.com/DexterHaslem/vscode-factor/issues"
-    },
-    "engines": {
-        "vscode": "^1.5.0"
-    },
-    "categories": [
-        "Languages",
-        "Snippets"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "factor",
-                "aliases": [
-                    "Factor",
-                    "factor"
-                ],
-                "extensions": [
-                    ".factor",
-                    ".facts"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "factor",
-                "scopeName": "source.factor",
-                "path": "./syntaxes/factor.tmLanguage"
-            }
-        ],
-        "snippets": [
-            {
-                "language": "factor",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+	"name": "factor",
+	"displayName": "Factor",
+	"description": "Factor programming language",
+	"version": "0.3.1",
+	"publisher": "dexterhaslem",
+	"icon": "Factor_256x256.png",
+	"homepage": "https://github.com/DexterHaslem/vscode-factor",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/forthnutter/vscode-factor.git"
+	},
+	"bugs": {
+		"url": "https://github.com/forthnutter/vscode-factor/issues"
+	},
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "factor",
+				"aliases": [
+					"Factor",
+					"factor"
+				],
+				"extensions": [
+					".factor",
+					".facts"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "factor",
+				"scopeName": "source.factor",
+				"path": "./syntaxes/factor.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "factor",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "292bb289-fc28-41ec-b02e-a08d2a6d813c",
+		"publisherId": "1cd3d102-8672-49eb-b635-24a322174d51",
+		"publisherDisplayName": "Dexter Haslem"
+	}
 }
